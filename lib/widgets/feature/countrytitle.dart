@@ -1,14 +1,15 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 
-FadeInUp dataWeather() {
+FadeInUp countryTitle() {
   return FadeInUp(
       child: Center(
           child: Container(
-              margin: EdgeInsets.only(top: 30),
-              child: Text("18°",
+              margin: EdgeInsets.only(top: 12, bottom: 30),
+              child: Text("Peravia, Dominican",
                   style: TextStyle(
-                      fontSize: 42,
+                      fontSize: 16,
+                      color: Colors.grey[700],
                       fontWeight: FontWeight.w700,
                       fontFamily: "ubuntu")))));
 }
