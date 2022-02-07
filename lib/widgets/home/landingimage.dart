@@ -6,6 +6,7 @@ FadeInUp homeImage() {
       child: ClipRRect(
           borderRadius: BorderRadius.circular(55),
           child: Container(
+              margin: EdgeInsets.only(top: 12),
               width: 270,
               child: FadeInImage(
                 placeholder: NetworkImage(
