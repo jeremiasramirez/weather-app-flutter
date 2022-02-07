@@ -8,7 +8,7 @@ FadeInUp days() {
     children: [
       // today
       Container(
-          margin: EdgeInsets.only(left: 12),
+          margin: EdgeInsets.only(left: 12, bottom: 22),
           child: Text("Today",
               style: TextStyle(
                 fontSize: 12,
@@ -18,7 +18,7 @@ FadeInUp days() {
 
       // tomorrow
       Container(
-          margin: EdgeInsets.only(left: 12),
+          margin: EdgeInsets.only(left: 12, bottom: 22),
           child: Text("Tomorrow",
               style: TextStyle(
                   fontSize: 12,
@@ -28,7 +28,7 @@ FadeInUp days() {
 
       // after
       Container(
-          margin: EdgeInsets.only(left: 12),
+          margin: EdgeInsets.only(left: 12, bottom: 22),
           child: Text("After",
               style: TextStyle(
                   fontSize: 12,
