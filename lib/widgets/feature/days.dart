@@ -1,8 +1,8 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 
-FadeInUp days() {
-  return FadeInUp(
+FadeIn days() {
+  return FadeIn(
       child: Row(
     mainAxisAlignment: MainAxisAlignment.center,
     children: [

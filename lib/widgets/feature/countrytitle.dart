@@ -1,8 +1,8 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 
-FadeInUp countryTitle() {
-  return FadeInUp(
+FadeIn countryTitle() {
+  return FadeIn(
       child: Center(
           child: Container(
               margin: EdgeInsets.only(top: 12, bottom: 30),
