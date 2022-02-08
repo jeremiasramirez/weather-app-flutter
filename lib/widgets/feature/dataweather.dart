@@ -5,7 +5,7 @@ FadeIn dataWeather() {
   return FadeIn(
       child: Center(
           child: Container(
-              margin: EdgeInsets.only(top: 30),
+              margin: EdgeInsets.only(top: 16),
               child: Text("18°",
                   style: TextStyle(
                       fontSize: 42,
